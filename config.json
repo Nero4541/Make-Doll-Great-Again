@@ -6,8 +6,8 @@
     "defaults": {
       "workspace": "~/.picoclaw/workspace",
       "restrict_to_workspace": true,
-      "provider": "",
-      "model": "",
+      "provider": "my-openai-oauth",
+      "model": "my-openai-oauth",
       "max_tokens": 32768,
       "max_tool_iterations": 50
     }
@@ -23,7 +23,7 @@
     },
     "telegram": {
       "enabled": false,
-      "token": "",
+      "token": "8651120136:AAGdY2ZAgxMkOxUvlAUB44irNDlmkY9gLLo",
       "proxy": "",
       "allow_from": [],
       "group_trigger": {},
@@ -243,7 +243,7 @@
     {
       "model_name": "gemini-flash",
       "model": "antigravity/gemini-3-flash",
-      "api_key": "",
+      "api_key": "AIzaSyCF-QbX8ULHSOGrFRPf7p85vGj6K36oRRE",
       "auth_method": "oauth"
     },
     {
@@ -270,6 +270,13 @@
       "model": "vllm/custom-model",
       "api_base": "http://localhost:8000/v1",
       "api_key": ""
+    },
+    {
+      "model_name": "my-openai-oauth",
+      "model": "openai/gpt-4o",
+      "api_base": "https://api.openai.com/v1",
+      "api_key": "",
+      "auth_method": "oauth"
     }
   ],
   "gateway": {
