@@ -1,0 +1,8 @@
+{
+  "platform": "ubuntu-phone",
+  "camera_cmd": "v4l2-ctl --device=/dev/video1 --stream-mmap --stream-to=/tmp/frame.jpg --stream-count=1",
+  "audio_record_cmd": "arecord -D default -f cd -t wav -d 3 /tmp/input.wav",
+  "audio_play_cmd": "ffplay -nodisp -autoexit /tmp/output.mp3",
+  "gateway_url": "http://127.0.0.1:18790",
+  "api_key": "YOUR_LLM_API_KEY_HERE"
+}
