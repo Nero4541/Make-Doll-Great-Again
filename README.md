@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 # Make-Doll-Great-Again
-=======
-# PicoClaw Multimedia Plugin
+
 
 這是一個為 PicoClaw 設計的多媒體外掛程式。它透過一個輕量級的 Bash 腳本 (`run_multimedia.sh`) 運作，負責控制硬體（麥克風、相機、喇叭），並將收集到的影音資料傳送給 PicoClaw 的 Gateway API 進行處理。這一切都不需要修改或重新編譯 PicoClaw 的核心 Go 程式。
 
@@ -71,4 +70,4 @@ sudo apt install -y curl jq alsa-utils v4l-utils ffmpeg
 
 - 因為核心 `picoclaw_app` 維持不變，所以原本設定在 `config.json` 中的其他通訊頻道（如 Telegram, WhatsApp）等功能完全不受影響，能與硬體外掛同時運作！
 - 所有請求共用相同的 `workspace`（記憶體、Agent、身份設定），無論你是用實體硬體還是 Telegram 發送訊息，PicoClaw 都會記得你們之間的對話上下文。
->>>>>>> master
+
